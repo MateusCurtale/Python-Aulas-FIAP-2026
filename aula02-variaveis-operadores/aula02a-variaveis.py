@@ -1,36 +1,60 @@
-print("Olá mundo!")
+num1 = 5 
+num2 = 2
 
-print(7+1)
-print("7 + 1")
-print("7" + " 8") #concatena strings
+print(type(num1), type(num2))
+      
+resultado_op = num1 + num2
 
-# Comentarios de 1 linha no python
+print(resultado_op, type(resultado_op)) 
 
-'''
-    comentários de multiplas
-      linhas
+# Operadores de atribuição
+num = 15
+print() # pule uma linha
+print(num)
 
-'''
+num = num + 2
+ 
+print(num)
 
-# Váriaveis 
+num += 2
 
-nome = "Alexandre" # string
-print(nome)
+# OPERADORES RELACIONAIS
+# >
+# <
+# >=
+# <=
+# ==
+# !=Z
+# 
+# 
+# #
 
-idade = 26 # int
-peso = 70.6 # float
+print(6 != 6)
 
-print(nome, idade, peso)
+idade = 21
 
-# INPUT - SIMULAR UM FORMULÁRIO NO CMD
-nome = input("Digite um nome: ")
-print(nome)
-idade = int(input("Digite sua idade: "))
-peso = float(input("Digite seu peso: "))
+print(idade >= 21)
 
-print(nome, idade, peso)
+print()
+print("===")
 
-print(f"Oiii, {nome}")
+logado = False
+
+print(logado, type(logado))
 
 
-print("teste")
+maior_idade = idade >= 18
+
+print(maior_idade, type(maior_idade))
+
+print()
+print()
+print("=========")
+
+
+# Strings
+
+nome1 = "marcos"
+nome2 = "Marcos"
+
+print(nome1.upper() == nome2.upper())
