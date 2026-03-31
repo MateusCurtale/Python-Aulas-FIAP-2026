@@ -31,3 +31,6 @@ peso = float(input("Digite seu peso: "))
 print(nome, idade, peso)
 
 print(f"Oiii, {nome}")
+
+
+print("teste")
